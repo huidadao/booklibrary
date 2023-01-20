@@ -1,3 +1,5 @@
+yarn init -y
+
 yarn add express ejs express-ejs-layouts
 
 yarn add nodemon
@@ -9,3 +11,12 @@ yarn install --save-dev
 yarn add dotenv --save-dev
 
 yarn add mongoose
+
+yarn add body-parser
+
+
+
+
+
+
+brew services run mongodb-community
