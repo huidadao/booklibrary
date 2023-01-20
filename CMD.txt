@@ -1,0 +1,11 @@
+yarn add express ejs express-ejs-layouts
+
+yarn add nodemon
+
+yarn add express -D
+
+yarn install --save-dev
+
+yarn add dotenv --save-dev
+
+yarn add mongoose
