@@ -14,7 +14,7 @@ yarn add mongoose
 
 yarn add body-parser
 
-
+yarn add multer
 
 
 

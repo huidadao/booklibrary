@@ -21,6 +21,7 @@ app.use(express.static('public'))
 
 app.use('/', require('./routes/roots'))
 app.use('/auth', require('./routes/auth'))
+app.use('/books', require('./routes/books'))
 
 
 app.listen(PORT, () => {
