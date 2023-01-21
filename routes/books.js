@@ -45,7 +45,7 @@ router.get('/', async (req, res) => {
     if (req.query.publishedAfter != null && req.query.publishedAfter != '') {
         query = query.gte('publishedDate', req.query.publishedAfter)
     }
-    console.log(Date(req.query.publishedBefore))
+    // console.log(Date(req.query.publishedBefore))
     try {
         const books = await query.exec()
         res.render('books/index', {
